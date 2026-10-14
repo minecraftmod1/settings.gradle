@@ -1,1 +1,19 @@
-
+{
+  "schemaVersion": 1,
+  "id": "facehud",
+  "version": "${version}",
+  "name": "Face HUD",
+  "description": "Shows an image on your screen. Press F8 to drag it around and resize it, then Save.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.facehud.FaceHudClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
